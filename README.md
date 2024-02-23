@@ -15,9 +15,9 @@ Example:
   func main() {
     original := "AAAAAAAAhhhhhhhhhh912738712dskajdkxnchWWWHKHkashkdhakhkhsk"
     encoded := b64.Base64Encode(original)
-    fmt.Println(encoded)
+    fmt.Println(encoded) // QUFBQUFBQUFoaGhoaGhoaGhoOTEyNzM4NzEyZHNrYWpka3huY2hXV1dIS0hrYXNoa2RoYWtoa2hzaw==
     decoded := b64.Base64Decode(encoded)
-    fmt.Println(decoded)
-    fmt.Println(original == decoded)
+    fmt.Println(decoded) // AAAAAAAAhhhhhhhhhh912738712dskajdkxnchWWWHKHkashkdhakhkhsk
+    fmt.Println(original == decoded) // true
   }
 ```
