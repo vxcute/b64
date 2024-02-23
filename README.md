@@ -1,6 +1,6 @@
 # b64
 
-Simple Base64 Go Package
+Simple Base64 Go Package, (ofc not meant for production use this is just me learning about this famous encoding algorithm)
 
 Example:
 
